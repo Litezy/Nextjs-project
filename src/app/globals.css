@@ -2,7 +2,58 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --bg: #0d0c22;
+  --text:white;
+  --bgSoft: #2d2b42;
+  --textSoft: #e5e5e5;
+}
+body{
+  background-color: var(--bg);
+  color: var(--text);
+  overflow-x: hidden;
+}
+.date{
+  transform: rotate(270deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -30,4 +81,4 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */
