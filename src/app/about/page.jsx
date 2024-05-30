@@ -26,7 +26,7 @@ const AboutPage = () => {
             </div>
           </div>
         </div>
-        <div className="md:w-1/2 w-11/12 mx-auto mt-10 md:mt-0 relative md:w-[500px] w-[400px] h-[400px]">
+        <div className="md:w-1/2  mx-auto mt-10 md:mt-0 relative md:w-[500px] w-[300px] h-[400px]">
           <Image className='rounded-md' src="https://images.pexels.com/photos/19782827/pexels-photo-19782827/free-photo-of-man-walking-on-a-path-by-the-shore-in-black-and-white.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"  fill />
         </div>
       </div>

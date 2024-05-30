@@ -36,7 +36,7 @@ const SinglePage = ({ params }) => {
 
 
   return (
-    <div className="w-full h-[32rem] mb-10">
+    <div className="w-full h-[32rem] ">
       <div className='w-11/12 mx-auto mt-10 h-full  flex items-center justify-center'>
         <div className="w-full h-[90%] md:flex  items-start gap-10 ">
           <div className="md:w-2/4 w-full md:h-[400%] h-96 relative flex ">
