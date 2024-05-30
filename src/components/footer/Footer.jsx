@@ -15,11 +15,11 @@ const Footer = () => {
   return (
     <div className='h-fit py-5 w-full bg-[inherit] px-5  '>
       <hr className="mb-2 bg-[#54748c]" />
-      <div className="md:w-[30%] w-[60%]  ml-auto   mb-10 ">
-        <h3 className="w-fit ml-auto text-sm text-blue-500 italic">subscribe to our email list today</h3>
+      <div className="md:w-[30%] w-[70%]  ml-auto   mb-10 ">
+        <h3 className="w-fit ml-auto text-sm text-blue-500 italic">subscribe to our email list</h3>
         <div className="w-full h-full flex item-center bg-green-500 rounded-md">
-          <input type="text" className="w-[70%] text-black h-10 pl-2 rounded-s-md outline-none" placeholder="enter your email" />
-          <button className="w-[30%] text-center text-xl">enter</button>
+          <input type="text" className="w-[70%] text-xs text-black h-10 pl-2 rounded-s-md outline-none" placeholder="enter your email" />
+          <button className="w-[30%] text-center text-sm">submit</button>
         </div>
       </div>
       <div className="w-full    ">

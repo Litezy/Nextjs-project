@@ -36,16 +36,17 @@ const SinglePage = ({ params }) => {
 
 
   return (
-    <div className="w-full h-[32rem] ">
-      <div className='w-11/12 mx-auto mt-10 h-full  flex items-center justify-center'>
+    <div className="w-full h-[32rem] mb-10">
+      <div className='w-11/12 mx-auto h-full flex items-center justify-center'>
         <div className="w-full h-[90%] md:flex  items-start gap-10 ">
           <div className="md:w-2/4 w-full md:h-[400%] h-96 relative flex ">
             <Image src={singledata[0].img ? singledata[0].img : '/contact.png'} className='object-contain' fill />
           </div>
-          <div className="w-3/4 flex flex-col gap-6">
-            <h2 className='text-sky-400 font-bold text-4xl'>{singledata[0].title}</h2>
-
+          <div className="w-3/4 flex flex-col gap-5">
+            <div className="">
+            <h2 className='text-sky-400 mb-2 font-bold text-4xl'>{singledata[0].title}</h2>
             <h2 className='font-thin text-md'>{singledata[0].desc}</h2>
+            </div>
             <Link href={`/blog`} className="md:hidden w-fit mr-auto px-5 py-1.3 bg-white rounded-md text-[#0d0c22]">back</Link>
           </div>
         </div>
